@@ -20,7 +20,7 @@ spec:
           image: pdecontainerregistry.azurecr.io/cosmosdbservice:Latest
           ports:
             - containerPort: 9004
-
+---
  kind: Service 
  apiVersion: v1 
  metadata: 
