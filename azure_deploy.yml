@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: cosmosdbservice
-          image: pdecontainerregistry.azurecr.io/cosmosdbservice:Latest
+          image: pdecontainerregistry.azurecr.io/cosmosdbservice:_version_
           ports:
             - containerPort: 9004
 ---
